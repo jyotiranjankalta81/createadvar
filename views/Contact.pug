@@ -1,0 +1,53 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Lifestyle and Entertainment
+  link(rel='stylesheet' href='../static/Contactstyle.css')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+.navbar
+  #logo
+    h1 Avada
+  #menu
+    ul
+      li
+        a(href='/') Home
+      li
+        a(href='') Yoga
+      li
+        a(href='') Health 
+      li
+        a(href='') Fashion
+      li
+        a(href='') Garden
+      li
+        a(href='/Contact') Contact
+  #sociallink
+    ul
+      a(href='')
+        i.fa.fa-facebook
+      a(href='')
+        i.fa.fa-instagram
+      a(href='')
+        i.fa.fa-twitter
+      a(href='')
+        i.fa.fa-linkedin
+      a(href='https://youtube.com/channel/UCJ588wd9phMoyMGtOYbusKw')
+        i.fa.fa-youtube
+
+form#contact(action='/Contact' method='post')
+  label(for='text') Name:
+  input#name(type='text' name='name' placeholder='Enter Your Name')
+  br
+  label(for='text') Age:
+  input#Age(type='text' name='age' placeholder='Enter your age')
+  br
+  label(for='Gender') Gender:
+  input#male(type='radio' name='Gender' value='male')
+  label(for='male') male:
+  input#Female(type='radio' name='Gender' value='Female')
+  label(for='Female') Female:
+  br
+  label(for='Mobileno') phone:
+  input#phone(type='text' name='phone' placeholder='Phone No')
+  button.btn Submit

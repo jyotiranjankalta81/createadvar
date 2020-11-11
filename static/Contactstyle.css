@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    
+}
+#logo{
+    width: 34%;
+
+}
+#logo h1{
+    font-size: 35px;
+    margin: 0px 20px;
+    font-style: italic;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    cursor: pointer;
+}
+#menu{
+    width: 33%;
+
+}
+#menu ul{
+    display: flex;
+}
+#menu ul li{
+    list-style: none;
+    margin: 10px 15px;
+
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+#sociallink{
+    width: 33%;
+    
+}
+#sociallink a i{
+    background-color: none;
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 5px 12px;
+    border-radius: 50%;
+
+}
+form{
+    margin: 50px 600px;
+    border: 5px solid black;
+    height: auto;
+    width: 300px;
+    background-image: url("https://source.unsplash.com/380x220/?fashion,contact");
+    
+
+}
+form input{
+    margin: 10px 0px;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+
+}
+form label{
+    color: white;
+}
+#name{
+    width: 200px;
+    color: white;
+}
+#Age{
+    width: 210px;
+    color: white;
+}
+#phone{
+    width: 200px;
+    color: white;
+}
+.btn{
+    margin: 10px auto;
+    display: block;
+    height: 30px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}

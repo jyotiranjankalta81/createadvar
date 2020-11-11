@@ -1,0 +1,325 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    
+}
+#logo{
+    width: 34%;
+
+}
+#logo h1{
+    font-size: 35px;
+    margin: 0px 20px;
+    font-style: italic;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    cursor: pointer;
+}
+#menu{
+    width: 33%;
+
+}
+#menu ul{
+    display: flex;
+}
+#menu ul li{
+    list-style: none;
+    margin: 10px 15px;
+
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+#sociallink{
+    width: 33%;
+    
+}
+#sociallink a i{
+    background-color: none;
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 5px 12px;
+    border-radius: 50%;
+
+}
+.life{
+    display: flex;
+}
+#box1{
+    width: 50%;
+    background-image: url("https://source.unsplash.com/680x500/?nature,water");
+}
+
+#box2{
+    width: 50%;
+    height: 500px;
+
+}
+#box2 h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 45px;
+    font-style: italic;
+}
+#box2 h4{
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.5;
+}
+#box2 p{
+    text-align: center;
+    margin: 0px 70px;
+}
+#box2 input{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 200px;
+    height: 35px;
+    border-radius: 5px;
+    width: 250px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+#box2 button{
+    text-align: center;
+    margin-left: 270px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 10px;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    cursor: pointer;
+    
+}
+#item1{
+    width: 25%;
+    height: 500px;
+    background-image: url("https://source.unsplash.com/350x500/?nature,beauty");
+}
+#item1 h2{
+    text-align: center;
+    margin-top: 400px;
+    color: white;
+}
+#item2{
+    width: 25%;
+    height: 500px;
+    background-image: url("https://source.unsplash.com/350x500/?nature,yoga");
+}
+#item2 h2{
+    text-align: center;
+    color: white;
+    margin-top: 400px;
+}
+#item3{
+    width: 25%;
+    height: 500px;
+    background-image: url("https://source.unsplash.com/350x500/?nature,health");
+}
+#item3 h2{
+    text-align: center;
+    margin-top: 400px;
+    color: white;
+}
+#item4{
+    width: 25%;
+    height: 500px;
+    background-image: url("https://source.unsplash.com/350x500/?nature,fashion");
+    cursor: pointer;
+}
+#item4 h2{
+    text-align: center;
+    margin-top: 400px;
+    cursor: pointer;
+    color: white;
+}
+.relax{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://source.unsplash.com/1370x500/?nature,fashion");
+}
+.relax h1{
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+}
+.relax h3{
+    text-align: center;
+    color: white;
+
+}
+.relax button{
+    text-align: center;
+    margin-left: 640px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    font-family: 'Bold';
+    cursor: pointer;
+}
+section{
+    display: flex;
+}
+.feature1{
+    width: 100%;
+}
+.feature1 h1{
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    
+}
+.feature1 h3{
+    text-align: center;
+    font-size: 25px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px;
+    border: 2px solid whitesmoke;
+}
+#post11{
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("https://source.unsplash.com/400x250/?nature,nutrition");
+
+}
+#post12{
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("https://source.unsplash.com/400x250/?nature,ocean");
+}
+#post13{
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("https://source.unsplash.com/400x250/?nature,fashion");
+}
+#post14{
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("https://source.unsplash.com/400x250/?nature,weightloss");
+}
+#post15{
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("https://source.unsplash.com/400x250/?nature,eating");
+}
+#post16{
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("https://source.unsplash.com/400x250/?nature,budget");
+}
+#post2{
+    height: 190px;
+    margin: 10px 10px;
+
+}
+#post2 h1{
+    text-align: center;
+
+
+}
+#post2 p{
+    text-align: center;
+    margin: 0px 20px;
+}
+.baby{
+    width: 100%;
+    height: 450px;
+    background-image: url("https://source.unsplash.com/1350x500/?baby,fashion");
+    color: white;
+
+}
+.baby h1{
+    text-align: center;
+    margin-top: 250px;
+
+}
+.baby h3{
+    text-align: center;
+
+}
+.baby p{
+    text-align: center;
+    margin: 0px 280px;
+    cursor: pointer;
+
+}
+.baby button{
+    margin-left: 640px;
+    margin-top: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+
+
+}
+.popup{
+    flex-direction: row-reverse;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 150px;
+    
+}
+.popup1{
+    flex-direction: row-reverse;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 240px;
+    
+}
+#pop{
+    width: 75px;
+    height: 75px;
+    margin: 5px 5px;
+    border-radius: 5px;
+    background-color: rgb(207, 190, 190);
+
+
+}
+#pop a i{
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 40px;
+    color: white;
+    
+    
+}
+
